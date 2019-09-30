@@ -1,0 +1,5 @@
+<mat-form-field>
+    <mat-select (selectionChange)="changeValue($event)">
+      <mat-option *ngFor="let categ of category" [value]="categ.name">{{categ.name}}</mat-option>
+    </mat-select>
+  </mat-form-field>
