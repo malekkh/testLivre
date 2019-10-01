@@ -3,20 +3,21 @@
     <mat-card-title>{{book.volumeInfo.title}}</mat-card-title>
   </mat-card-header>
   <img mat-card-image src={{book.volumeInfo.imageLinks.smallThumbnail}}>
+  <hr />
   <mat-card-content>
     <p>
       {{book.volumeInfo.description}}
     </p>
     <hr />
-    <h3>Category :</h3>
+    <h2>Category :</h2>
     <p>{{book.volumeInfo.categories}}</p>
-    <h3>Author :</h3>
+    <h2>Author :</h2>
     <p>{{book.volumeInfo.authors}}</p>
-    <h3>Publisher :</h3>
+    <h2>Publisher :</h2>
     <p>{{book.volumeInfo.publisher}}</p>
-    <h3>Published date :</h3>
+    <h2>Published date :</h2>
     <p>{{book.volumeInfo.publishedDate}}</p>
-    <h3>Language :</h3>
+    <h2>Language :</h2>
     <p>{{book.volumeInfo.language}}</p>
     <hr />
   </mat-card-content>

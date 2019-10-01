@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-filter-category',
+  selector: 'adz-filter-category',
   templateUrl: './filter-category.component.html',
   styleUrls: ['./filter-category.component.css']
 })

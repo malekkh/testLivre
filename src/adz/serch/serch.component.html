@@ -1,7 +1,7 @@
 <form class="example-form">
   <mat-form-field class="example-full-width">
     <div class="search">
-        <input matInput placeholder="Search" [(ngModel)]="search" name="search">
+        <input matInput placeholder="Search Books" [(ngModel)]="search" name="search">
     </div>
     <div mat-dialog-actions align="end">
       <a [routerLink]="['/booksList']" [queryParams]="{ q: search}">

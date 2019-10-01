@@ -14,7 +14,6 @@ export class BooksListComponent implements OnInit {
   books;
   backupBooks;
   q:string;
-  data : [];
   category=[];
   values = '';
 
@@ -69,7 +68,7 @@ export class BooksListComponent implements OnInit {
 
 filterCategory(event){
   this.books = JSON.parse(JSON.stringify(this.backupBooks)).filter((book) => {
-    return book.volumeInfo.categories[0]===event }
+    return book.volumeInfo.categories[0]=== event }
   );
 }
 }

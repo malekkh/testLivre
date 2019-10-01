@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AdzRoutingModule } from './adz-routing.module';
+import { AdzComponent } from './adz.component';
 import { SerchComponent } from './serch/serch.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
@@ -24,7 +24,7 @@ import { FilterCategoryComponent } from './filter-category/filter-category.compo
 import {MatSelectModule} from '@angular/material/select';
 @NgModule({
   declarations: [
-    AppComponent,
+    AdzComponent,
     SerchComponent,
     BooksListComponent,
     BookDetailsComponent,
@@ -33,7 +33,7 @@ import {MatSelectModule} from '@angular/material/select';
   entryComponents: [BookDetailsComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AdzRoutingModule,
     BrowserAnimationsModule, 
     MatSliderModule,
     MatInputModule,
@@ -51,6 +51,6 @@ import {MatSelectModule} from '@angular/material/select';
     MatSelectModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AdzComponent]
 })
-export class AppModule { }
+export class AdzModule { }
